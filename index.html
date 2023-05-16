@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        .container{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+         
+        }
+        .wrap{
+            height: 300px;
+            width: 300px;
+            background-color: rgb(125, 137, 137);
+            border-radius: 30px;
+            padding: 15px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>bank account management..</h1>
+   <div class="container">
+    <div class="wrap"> 
+      <div id="search">Deposite balance</div>
+       <div class="input">
+        <input id="inputBalance" type="number" class="inputDeposite" placeholder="deposite balance" >
+       </div>
+       <div class="submit">
+        <button id="btnDeposite">Deposite</button>
+        <button id="btnWithdraw">Withdraw</button>
+       </div>
+       <div class="balance">
+        <p id="balance"></p>
+       </div>
+   </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
